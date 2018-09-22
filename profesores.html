@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>CETPRO Margarita Gonzales de Dankers</title>
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+
+	<body>
+
+		<header>
+			<div class="contenedor">
+				<div class="logo">
+				    <img src="img/logo.png" width="110">
+				</div>
+			</div>
+		</header>
+
+		<div class="navegacion">
+			<nav>
+				<ul class="clearfix">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="#">Alumnos</a></li>
+					<li><a class="enlace-activo" href="profesores.html">Profesores</a></li>
+					<li><a href="modulos.html">Modulos</a>
+						<!-- <ul>
+							<li><a href="#">Registrar</a></li>
+                    		<li><a href="#">Eliminar</a></li>
+                    		<li><a href="#">Modificar</a></li>
+                    		<li><a href="#">Reportes</a></li>
+						</ul> -->   
+					</li>
+					<li><a href="opciones.html">Opciones</a></li>
+					<li><a href="#">Familias</a></li>
+					<li><a href="#">Matricula</a></li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<main class="contenido-principal">
+
+			<div class="titulo-formulario">
+				<h2>Operaciones para <span>Profesores</span></h2>
+			</div>
+
+			<form class="formulario" action="">
+				<label class="titulo-label">Nombre del Profesor:</label>
+				<input class="input" type="text" name="nombre" placeholder="Nombres" required autofocus>
+				<br>
+
+				<label class="titulo-label">Apellido Paterno:</label>
+				<input class="input" type="text" name="apellido-paterno" placeholder="Apellido Paterno" required>
+				<br>
+
+				<label class="titulo-label">Apellido Materno:</label>
+				<input class="input" type="text" name="apellido-materno" placeholder="Apellido Materno" required>
+				<br>
+				
+
+				<label class="titulo-label">Sexo:</label>
+				<select class="input" name="sexo">
+					<option value="matutino" selected="">Masculino</option>
+					<option value="nocturno">Femenino</option>
+				</select>
+				<br>
+
+
+				<label class="titulo-label">Fecha de nacimiento:</label>
+				<input class="input" type="date" name="fecha-nacimiento" placeholder="DD/MM/AAAA" required>
+				<br>
+
+				<div class="botones">
+					<input class="boton-registrar" type="submit" value="Registrar">
+					<input class="boton-modificar" type="submit" value="Modificar">
+					<input class="boton-eliminar" type="submit" value="Eliminar">
+					<input class="boton-limpiar" type="reset" value="Limpiar">
+				</div>
+			</form>	
+		</main>
+
+		<aside>
+			
+		</aside>
+
+		<footer>
+			
+		</footer>
+
+	</body>
+</html>
