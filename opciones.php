@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<title>CETPRO Margarita Gonzales de Dankers</title>
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/estilos.css">
 	</head>
 
@@ -21,19 +22,53 @@
 		<div class="navegacion">
 			<nav>
 				<ul class="clearfix">
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="#">Alumnos</a></li>
-					<li><a class="enlace-activo" href="profesores.html">Profesores</a></li>
-					<li><a href="modulos.html">Modulos</a>
-						<!-- <ul>
-							<li><a href="#">Registrar</a></li>
+					<li><a href="index.php">Inicio</a></li>
+
+					<li><a href="#">Alumnos</a>
+						<ul>
+                    		<li><a href="alumnos.php">Registrar</a></li>
                     		<li><a href="#">Eliminar</a></li>
                     		<li><a href="#">Modificar</a></li>
                     		<li><a href="#">Reportes</a></li>
-						</ul> -->   
+                  		</ul>
 					</li>
-					<li><a href="opciones.html">Opciones</a></li>
-					<li><a href="#">Familias</a></li>
+
+					<li><a href="#">Profesores</a>
+						<ul>
+                    		<li><a href="profesores_registrar.php">Registrar</a></li>
+                    		<li><a href="#">Eliminar</a></li>
+                    		<li><a href="#">Modificar</a></li>
+                    		<li><a href="#">Reportes</a></li>
+                  		</ul>
+					</li>
+
+					<li><a href="#">Modulos</a>
+						<ul>
+                    		<li><a href="modulos.php">Registrar</a></li>
+                    		<li><a href="#">Eliminar</a></li>
+                    		<li><a href="#">Modificar</a></li>
+                    		<li><a href="#">Reportes</a></li>
+                  		</ul>
+					</li>
+
+					<li><a class="enlace-activo" href="#">Opciones</a>
+						<ul>
+                    		<li><a href="opciones.php">Registrar</a></li>
+                    		<li><a href="#">Eliminar</a></li>
+                    		<li><a href="#">Modificar</a></li>
+                    		<li><a href="#">Reportes</a></li>
+                  		</ul>
+					</li>
+
+					<li><a href="#">Familias</a>
+						<ul>
+                    		<li><a href="#">Registrar</a></li>
+                    		<li><a href="#">Eliminar</a></li>
+                    		<li><a href="#">Modificar</a></li>
+                    		<li><a href="#">Reportes</a></li>
+                  		</ul>
+					</li>
+
 					<li><a href="#">Matricula</a></li>
 				</ul>
 			</nav>
