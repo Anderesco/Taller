@@ -37,7 +37,7 @@
 						<ul>
                     		<li><a href="profesores_registrar.php">Registrar</a></li>
                     		<li><a href="#">Eliminar</a></li>
-                    		<li><a href="#">Modificar</a></li>
+                    		<li><a href="profesores_buscar.php">Modificar</a></li>
                     		<li><a href="#">Reportes</a></li>
                   		</ul>
 					</li>

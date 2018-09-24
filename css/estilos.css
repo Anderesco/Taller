@@ -135,7 +135,7 @@ nav ul li:hover > ul {
 	justify-content: space-around;
 }
 
-.input, .boton-registrar, .boton-limpiar, .boton-modificar, .boton-eliminar{
+.input, .boton-registrar, .boton-limpiar, .boton-modificar, .boton-eliminar, .boton-buscar{
 	background-color: #efefef;
 	padding: 10px;
 	margin: 10px 0;
@@ -149,7 +149,7 @@ nav ul li:hover > ul {
 	border-bottom: solid #0D6BD6 5px;
 }
 
-.boton-registrar, .boton-limpiar, .boton-eliminar, .boton-modificar{
+.boton-registrar, .boton-limpiar, .boton-eliminar, .boton-modificar, .boton-buscar{
 	width: 40%;
 	border-bottom: none;
 	background-color: #31b1e5;
@@ -157,6 +157,10 @@ nav ul li:hover > ul {
 	padding: 10px;
 	font-weight: bold;
 	font-size: 15px;
+}
+
+.boton-buscar{
+	width: 80%;
 }
 
 .boton-limpiar{

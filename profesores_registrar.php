@@ -37,7 +37,7 @@
 						<ul>
                     		<li><a href="profesores_registrar.php">Registrar</a></li>
                     		<li><a href="#">Eliminar</a></li>
-                    		<li><a href="#">Modificar</a></li>
+                    		<li><a href="profesores_buscar.php">Modificar</a></li>
                     		<li><a href="#">Reportes</a></li>
                   		</ul>
 					</li>
@@ -78,10 +78,10 @@
 		<main class="contenido-principal">
 
 			<div class="titulo-formulario">
-				<h2>Operaciones para <span>Profesores</span></h2>
+				<h2>Registro de <span>Profesores</span></h2>
 			</div>
 
-			<form class="formulario" action="profesor_guardar.php" method="POST">
+			<form class="formulario" action="profesor_guardar_metodo.php" method="POST">
 				<label class="titulo-label">Nombres del Profesor:</label>
 				<input class="input" type="text" name="nombres" placeholder="Nombres" required autofocus>
 				<br>
